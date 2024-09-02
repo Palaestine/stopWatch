@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stopWatch{
+    width: 400px;
+    border-radius: 6px;
+    color: #fff;
+    background-image:linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,.8)) , url(../images/background.png) ;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0 10px 10px black;
+}
+.stopWatch h1{
+    font-size: 60px;
+}
+.buttoms img{
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+}
+.buttoms img:nth-child(2){
+    width: 45px;
+}
